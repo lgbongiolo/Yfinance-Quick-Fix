@@ -5,9 +5,8 @@
 
 
 ### Description:
-- If are getting this error while using Pandas with Yfinance and you would like to keep using pandas to retrieve stock data from yahoo, this is a quick fix for the issue 
+- If are getting this error while using Pandas along with Yfinance and you would like to keep using pandas to retrieve stock data from yahoo, this is a quick fix for the issue 
 
-- import yfinance as yf
 - yf.pdr_override() <== that's all it takes :)
 
 
